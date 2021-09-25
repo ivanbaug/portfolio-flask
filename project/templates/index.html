@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+  <title>ivan's portfolio</title>
+  <link rel='shortcut icon' type='image/x-icon' href="{{url_for('static', filename='favicon.ico')}}" />
+  <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  <!-- Navbar -->
+  <div class="container-fluid px-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="autohide-navbar">
+      <div class="container mx-6">
+        <a class="navbar-brand" id="my-brand" href="#">iv</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Main</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div id="nav-spacer"></div>
+  <br>
+  <br>
+  <div class="container pt-6 pb-4">
+    <div class="row">
+      <div class="col-md d-flex align-items-center">
+        <img class="mx-auto d-block align-middle" src="https://ivanotes.s3.amazonaws.com/img/0026-iv.png"
+          alt="profile-picture">
+      </div>
+      <div class="col-md-6 d-flex align-items-center flex-column">
+        <h1 class="name">Ivan Bautista</h1>
+        <h2 class="occupation pb-4">Mechatronics Engineer</h2>
+        <p class="intro">
+          I'm an engineer with experience in design and execution of control, automation and monitoring
+          systems in the HVAC field.
+        </p>
+        <p class="intro">
+          Looking to develop skills in software development to pursue a career in this ever expanding industry.
+        </p>
+      </div>
+    </div>
+
+  </div>
+  <!-- Projects section begins here -->
+  <div class="container-fluid pt-5 pb-5 alt-color" id="projects">
+    <div class="container">
+      <div class="row pb-5">
+        <div class="col-lg-4 col-md-3 subtitle2">
+          <hr>
+        </div>
+        <div class="col-lg-4 col-md-6 subtitle2">My projects</div>
+        <div class="col-lg-4 col-md-3 subtitle2">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="container text-center my-3">
+          <div class="row mx-auto my-auto justify-content-center position-relative">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                  aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="col-md-3">
+                    <div class="card shadow-sm">
+                      <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                          dy=".3em">Thumbnail</text>
+                      </svg>
+
+                      <div class="card-body">
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                          additional
+                          content. This content is a little bit longer.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                          </div>
+                          <small class="text-muted">9 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="col-md-3">
+                    <div class="card shadow-sm">
+                      <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                          dy=".3em">Thumbnail</text>
+                      </svg>
+
+                      <div class="card-body">
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                          additional
+                          content. This content is a little bit longer.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                          </div>
+                          <small class="text-muted">9 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="col-md-3">
+                    <div class="card shadow-sm">
+                      <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                          dy=".3em">Thumbnail</text>
+                      </svg>
+
+                      <div class="card-body">
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                          additional
+                          content. This content is a little bit longer.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                          </div>
+                          <small class="text-muted">9 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <!-- <div class="col-md-3"> -->
+                  <div class="card shadow-sm px-2">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                      xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                      preserveAspectRatio="xMidYMid slice" focusable="false">
+                      <title>Placeholder</title>
+                      <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                        dy=".3em">Thumbnail</text>
+                    </svg>
+
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional
+                        content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      Most of my software projects are on github ...provide link...
+    </div>
+  </div>
+  <!-- Projects section ends here -->
+  <!-- Experience section starts here -->
+  <div class="container-fluid pt-5 pb-5" id="experience">
+    <div class="container">
+      <div class="row pb-5">
+        <div class="col-lg-4 col-md-3 subtitle1">
+          <hr>
+        </div>
+        <div class="col-lg-4 col-md-6 subtitle1">Experience</div>
+        <div class="col-lg-4 col-md-3 subtitle1">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="timeline mx-auto">
+          <div class="timeline-item pb-3">
+            <span class="circle-item"></span>
+            <div class="timeline-title">
+              <span>Automation engineer</span>
+            </div>
+            <span class="timeline-date"> Davinci Control S.A.S. (Bogotá Colombia) 2018-2021 </span>
+            <div class="timelinte-content">
+              <span class="bold-content">Main activities: </span>
+              <span>Estimating automation solutions for air conditioning systems, implementation of
+                said
+                systems leading a team that installs, commission and start-up the control and monitoring equipment.
+                Programming the field controllers and developing user interfaces according to client requirements.
+                Retrofit of out-of-date equipment leading to savings between 5 and 30% in energy consumption.</span>
+            </div>
+          </div>
+          <div class="timeline-item pb-3">
+            <span class="circle-item"></span>
+            <div class="timeline-title">
+              <span>Design and projects engineer</span>
+            </div>
+            <span class="timeline-date">HVAC-Consulting S.A.S. (Bogotá Colombia) 2014-2018 </span>
+            <div class="timelinte-content">
+              <span class="bold-content">Main activities: </span>
+              <span>Cooling/heating load calculations, air conditioning system
+                selection/optimization for contracted buildings, plan drafting and documentation for the HVAC system of
+                said buildings under ASHRAE Standards. Over 20 residential, commercial and industrial projects designed
+                with highly energy efficient solutions</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- Experience section ends here -->
+  <!-- Education section starts here -->
+  <div class="container-fluid pt-5 pb-5 alt-color" id="education">
+    <div class="container">
+      <div class="row pb-5">
+        <div class="col-lg-4 col-md-3 subtitle2">
+          <hr>
+        </div>
+        <div class="col-lg-4 col-md-6 subtitle2">Education</div>
+        <div class="col-lg-4 col-md-3 subtitle2">
+          <hr>
+        </div>
+      </div>
+      <div class="row d-flex align-items-center">
+        <div class="timeline mx-auto">
+          <div class="timeline-item pb-3">
+            <span class="circle-item"></span>
+            <div class="timeline-title">
+              <span>Mechatronics Engineering (BS)</span>
+            </div>
+            <span class="timeline-date"> 2010-2015 </span>
+            <div class="timelinte-content">
+              <span>Universidad Militar Nueva Granada</span>
+            </div>
+          </div>
+        </div>
+        <div class="text-center pb-3">
+          <h5>Courses and certifications</h5>
+        </div>
+        <div class="timeline mx-auto">
+          <div class="timeline-item pb-3">
+            <span class="circle-item"></span>
+            <div class="timeline-title">
+              <span>Programa de seguro de Ahorros de la energia - ESI</span>
+            </div>
+            <span class="timeline-date"> 2020 </span>
+            <div class="timelinte-content">
+              <span>BID - Bancoldex</span>
+            </div>
+          </div>
+          <div class="timeline-item pb-3">
+            <span class="circle-item"></span>
+            <div class="timeline-title">
+              <span>FX Supervisory Controllers, FX Server and FX Workbench Advanced</span>
+            </div>
+            <span class="timeline-date"> 2020 </span>
+            <div class="timelinte-content">
+              <span>Johnson Controls</span>
+            </div>
+          </div>
+          <div class="timeline-item pb-3">
+            <span class="circle-item"></span>
+            <div class="timeline-title">
+              <span>Advanced FX Field controllers and CPO10</span>
+            </div>
+            <span class="timeline-date"> 2020 </span>
+            <div class="timelinte-content">
+              <span>Johnson Controls</span>
+            </div>
+          </div>
+          <div class="timeline-item pb-3">
+            <span class="circle-item"></span>
+            <div class="timeline-title">
+              <span>FX Workshop</span>
+            </div>
+            <span class="timeline-date"> 2018 </span>
+            <div class="timelinte-content">
+              <span>Johnson Controls</span>
+            </div>
+          </div>
+          <div class="timeline-item pb-3">
+            <span class="circle-item"></span>
+            <div class="timeline-title">
+              <span>PCT software and PCG Family MSTP Field controllers</span>
+            </div>
+            <span class="timeline-date"> 2018 </span>
+            <div class="timelinte-content">
+              <span>Johnson Controls</span>
+            </div>
+          </div>
+          <div class="timeline-item pb-3">
+            <span class="circle-item"></span>
+            <div class="timeline-title">
+              <span>Machine Learning</span>
+            </div>
+            <span class="timeline-date"> 2014 </span>
+            <div class="timelinte-content">
+              <span>Coursera</span>
+            </div>
+          </div>
+          <div class="timeline-item pb-3">
+            <span class="circle-item"></span>
+            <div class="timeline-title">
+              <span>6.00x: Introduction to Computer Science and Programming</span>
+            </div>
+            <span class="timeline-date"> 2013 </span>
+            <div class="timelinte-content">
+              <span>edX</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Education section ends here -->
+
+
+  <!-- Contact section begins here -->
+  <div class="container-fluid pt-5 pb-5" id="contact">
+    <div class="container">
+      <div class="row pb-5">
+        <div class="col-lg-4 col-md-3 subtitle1">
+          <hr>
+        </div>
+        <div class="col-lg-4 col-md-6 subtitle1">Contact</div>
+        <div class="col-lg-4 col-md-3 subtitle1">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="container text-center">
+          Want to get in touch? Send me an email to: <em>ivsitioinfo (at) gmail.com</em> or you can check these pages:
+          <div class="social my-5">
+            <div class="row">
+              <div class="col text-center">
+                <a href="https://linkedin.com/in/ivan-bautista-5282318a" role="button"
+                  class="btn btn-outline-secondary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-linkedin icon-link" viewBox="0 0 16 16">
+                    <path
+                      d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                  </svg> LinkedIn</a>
+              </div>
+              <div class="col text-center">
+                <a href="https://github.com/ivanbaug" role="button" class="btn btn-outline-secondary"> <svg
+                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-github icon-link" viewBox="0 0 16 16">
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                  </svg> GitHub</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Contact section ends here -->
+
+  <!-- Footer -->
+  <div class="wrapper flex-grow-1"></div>
+  <footer class="container-fluid pt-2 pb-2 navbar-fixed-bottom">
+    <div class="text-center">
+      Copyright © Ivan Bautista <span id="cdate">2020</span>
+    </div>
+    <div class="text-center">
+      Built from scratch - Find the code on
+      <a href="https://github.com/ivanbaug/portfolio-web" class="link-light"> GitHub
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+          class="bi bi-github icon-link" viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+        </svg>
+      </a>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+  </script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  <!-- Auto update year -->
+  <script type="text/javascript">
+    document.getElementById("cdate").innerHTML = new Date().getFullYear();
+  </script>
+  <script src="{{url_for('static', filename='js/navbar-hide.js')}}"></script>
+  <script src="{{url_for('static', filename='js/multiple-items.js')}}"></script>
+</body>
+
+
+
+</html>

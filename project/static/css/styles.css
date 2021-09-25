@@ -1,0 +1,154 @@
+@media (min-width: 992px) {
+  .mlist-sizing {
+    max-width: 60%;
+  }
+}
+
+
+#my-brand {
+  font-size: x-large;
+  font-family: 'Fugaz One', cursive;
+}
+
+.alt-color {
+  background-color: #F2F2F2;
+}
+
+.subtitle1 {
+  text-align: center;
+  color: #4D64AE;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.subtitle2 {
+  text-align: center;
+  color: #CA3C32;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #2c2f3e;
+  color: #fff;
+  padding-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#autohide-navbar {
+  /* Make it stick/fixed */
+  position: fixed;
+  /* Stay on top */
+  top: 0;
+  width: 100%;
+  /* Transition effect when sliding down (and up) */
+  transition: top 0.3s;
+  z-index: 1200;
+
+}
+
+/* Carousel */
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item>div {
+    display: none;
+  }
+
+  .carousel-inner .carousel-item>div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+
+  .carousel-inner .carousel-item-start.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
+
+.carousel-indicators {
+  bottom: -40px;
+}
+
+/* Container max width */
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+/* Timeline and items */
+
+.timeline {
+  box-sizing: border-box;
+  /* background-color: #b3bfff; */
+  max-width: 800px;
+}
+
+.timeline-item {
+
+  box-sizing: border-box;
+  /* background-color: white; */
+  border-left-color: #a1a1a1;
+  border-left-width: 2px;
+  border-left-style: solid;
+  padding-left: 1.5rem;
+  position: relative;
+
+}
+
+.timeline-title {
+  font-weight: 600;
+}
+
+.timeline-date {
+  color: #9c9c9c;
+}
+
+.timeline-content {
+  font-weight: 400;
+}
+
+.bold-content {
+  font-weight: 550;
+}
+
+
+
+.circle-item:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  /* reason for left is the padding on .timeline-item */
+  left: -1.5rem;
+  transform: translate(140%, -50%);
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background:
+    #838383;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 0 .1875rem rgba(145, 145, 145, 0.25);
+}
+
+.icon-link {
+  vertical-align: text-top;
+}
