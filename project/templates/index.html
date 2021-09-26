@@ -239,36 +239,12 @@
       </div>
       <div class="row">
         <div class="timeline mx-auto">
-          <div class="timeline-item pb-3">
-            <span class="circle-item"></span>
-            <div class="timeline-title">
-              <span>Automation engineer</span>
-            </div>
-            <span class="timeline-date"> Davinci Control S.A.S. (Bogotá Colombia) 2018-2021 </span>
-            <div class="timelinte-content">
-              <span class="bold-content">Main activities: </span>
-              <span>Estimating automation solutions for air conditioning systems, implementation of
-                said
-                systems leading a team that installs, commission and start-up the control and monitoring equipment.
-                Programming the field controllers and developing user interfaces according to client requirements.
-                Retrofit of out-of-date equipment leading to savings between 5 and 30% in energy consumption.</span>
-            </div>
-          </div>
-          <div class="timeline-item pb-3">
-            <span class="circle-item"></span>
-            <div class="timeline-title">
-              <span>Design and projects engineer</span>
-            </div>
-            <span class="timeline-date">HVAC-Consulting S.A.S. (Bogotá Colombia) 2014-2018 </span>
-            <div class="timelinte-content">
-              <span class="bold-content">Main activities: </span>
-              <span>Cooling/heating load calculations, air conditioning system
-                selection/optimization for contracted buildings, plan drafting and documentation for the HVAC system of
-                said buildings under ASHRAE Standards. Over 20 residential, commercial and industrial projects designed
-                with highly energy efficient solutions</span>
-            </div>
-          </div>
-
+        {% if data.experience %}
+          {% from 'macros.html' import my_experience as my_experience %}
+          {% for exp in data.experience %}
+            {{my_experience(exp)}}
+          {% endfor %}
+        {% endif %}
         </div>
       </div>
     </div>
@@ -289,91 +265,23 @@
       </div>
       <div class="row d-flex align-items-center">
         <div class="timeline mx-auto">
-          <div class="timeline-item pb-3">
-            <span class="circle-item"></span>
-            <div class="timeline-title">
-              <span>Mechatronics Engineering (BS)</span>
-            </div>
-            <span class="timeline-date"> 2010-2015 </span>
-            <div class="timelinte-content">
-              <span>Universidad Militar Nueva Granada</span>
-            </div>
-          </div>
+        {% if data.education %}
+          {% from 'macros.html' import my_education as my_education %}
+          {% for edu in data.education %}
+            {{my_education(edu)}}
+          {% endfor %}
+        {% endif %}
         </div>
         <div class="text-center pb-3">
           <h5>Courses and certifications</h5>
         </div>
         <div class="timeline mx-auto">
-          <div class="timeline-item pb-3">
-            <span class="circle-item"></span>
-            <div class="timeline-title">
-              <span>Programa de seguro de Ahorros de la energia - ESI</span>
-            </div>
-            <span class="timeline-date"> 2020 </span>
-            <div class="timelinte-content">
-              <span>BID - Bancoldex</span>
-            </div>
-          </div>
-          <div class="timeline-item pb-3">
-            <span class="circle-item"></span>
-            <div class="timeline-title">
-              <span>FX Supervisory Controllers, FX Server and FX Workbench Advanced</span>
-            </div>
-            <span class="timeline-date"> 2020 </span>
-            <div class="timelinte-content">
-              <span>Johnson Controls</span>
-            </div>
-          </div>
-          <div class="timeline-item pb-3">
-            <span class="circle-item"></span>
-            <div class="timeline-title">
-              <span>Advanced FX Field controllers and CPO10</span>
-            </div>
-            <span class="timeline-date"> 2020 </span>
-            <div class="timelinte-content">
-              <span>Johnson Controls</span>
-            </div>
-          </div>
-          <div class="timeline-item pb-3">
-            <span class="circle-item"></span>
-            <div class="timeline-title">
-              <span>FX Workshop</span>
-            </div>
-            <span class="timeline-date"> 2018 </span>
-            <div class="timelinte-content">
-              <span>Johnson Controls</span>
-            </div>
-          </div>
-          <div class="timeline-item pb-3">
-            <span class="circle-item"></span>
-            <div class="timeline-title">
-              <span>PCT software and PCG Family MSTP Field controllers</span>
-            </div>
-            <span class="timeline-date"> 2018 </span>
-            <div class="timelinte-content">
-              <span>Johnson Controls</span>
-            </div>
-          </div>
-          <div class="timeline-item pb-3">
-            <span class="circle-item"></span>
-            <div class="timeline-title">
-              <span>Machine Learning</span>
-            </div>
-            <span class="timeline-date"> 2014 </span>
-            <div class="timelinte-content">
-              <span>Coursera</span>
-            </div>
-          </div>
-          <div class="timeline-item pb-3">
-            <span class="circle-item"></span>
-            <div class="timeline-title">
-              <span>6.00x: Introduction to Computer Science and Programming</span>
-            </div>
-            <span class="timeline-date"> 2013 </span>
-            <div class="timelinte-content">
-              <span>edX</span>
-            </div>
-          </div>
+        {% if data.courses %}
+          {% from 'macros.html' import my_education as my_education %}
+          {% for course in data.courses %}
+            {{my_education(course)}}
+          {% endfor %}
+        {% endif %}
         </div>
       </div>
     </div>

@@ -1,0 +1,69 @@
+{
+  "projects":[
+    {
+      "title":"",
+      "description":"",
+      "img_url":"",
+      "prj_url":"",
+      "stack":""
+    }
+  ],
+  "experience":[
+    {
+      "title":"Automation engineer",
+      "company":"Davinci Control S.A.S. (Bogotá Colombia)",
+      "year":"2018-2021",
+      "description":"Estimating automation solutions for air conditioning systems, implementation of said systems leading a team that installs, commission and start-up the control and monitoring equipment. Programming the field controllers and developing user interfaces according to client requirements. Retrofit of out-of-date equipment leading to savings between 5 and 30% in energy consumption."
+    },
+    {
+      "title":"Design and projects engineer",
+      "company":"HVAC-Consulting S.A.S. (Bogotá Colombia)",
+      "year":"2014-2018",
+      "description":"Cooling/heating load calculations, air conditioning system selection/optimization for contracted buildings, plan drafting and documentation for the HVAC system of said buildings under ASHRAE Standards. Over 20 residential, commercial and industrial projects designed with highly energy efficient solutions."
+    }
+  ],
+  "education":[
+    {
+      "title":"Mechatronics Engineering (BS)",
+      "year":"2010-2015",
+      "at":"Universidad Militar Nueva Granada"
+    }
+  ],
+  "courses":[
+    {
+      "title":"Programa de seguro de Ahorros de la energia - ESI",
+      "year":"2020",
+      "at":"BID - Bancoldex"
+    },
+    {
+      "title":"FX Supervisory Controllers, FX Server and FX Workbench Advanced",
+      "year":"2020",
+      "at":"Johnson Controls"
+    },
+    {
+      "title":"Advanced FX Field controllers and CPO10",
+      "year":"2020",
+      "at":"Johnson Controls"
+    },
+    {
+      "title":"FX Workshop",
+      "year":"2018",
+      "at":"Johnson Controls"
+    },
+    {
+      "title":"PCT software and PCG Family MSTP Field controllers",
+      "year":"2018",
+      "at":"Johnson Controls"
+    },
+    {
+      "title":"Machine Learning",
+      "year":"2014",
+      "at":"Coursera"
+    },
+    {
+      "title":"6.00x: Introduction to Computer Science and Programming",
+      "year":"2013",
+      "at":"edX"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{% macro my_experience(exp) -%}
+  <div class="timeline-item pb-3">
+    <span class="circle-item"></span>
+    <div class="timeline-title">
+      <span>{{exp.title}}</span>
+    </div>
+    <span class="timeline-date">{{exp.company}} {{exp.year}}</span>
+    <div class="timelinte-content">
+      <span class="bold-content">Main activities: </span>
+      <span>{{exp.description}}</span>
+    </div>
+  </div>
+{%- endmacro %}
+{% macro my_education(edu) -%}
+  <div class="timeline-item pb-3">
+    <span class="circle-item"></span>
+    <div class="timeline-title">
+      <span>{{edu.title}}</span>
+    </div>
+    <span class="timeline-date"> {{edu.year}} </span>
+    <div class="timelinte-content">
+      <span>{{edu.at}}</span>
+    </div>
+  </div>
+{%- endmacro %}
