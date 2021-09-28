@@ -1,7 +1,35 @@
 {
   "projects":[
     {
-      "title":"",
+      "title":"Bluetooth Robot",
+      "description":"",
+      "img_url":"",
+      "prj_url":"",
+      "stack":""
+    },
+    {
+      "title":"Control Calculator",
+      "description":"",
+      "img_url":"",
+      "prj_url":"",
+      "stack":""
+    },
+    {
+      "title":"Python blog",
+      "description":"",
+      "img_url":"",
+      "prj_url":"",
+      "stack":""
+    },
+    {
+      "title":"Telegram bot",
+      "description":"",
+      "img_url":"",
+      "prj_url":"",
+      "stack":""
+    },
+    {
+      "title":"Morse translator",
       "description":"",
       "img_url":"",
       "prj_url":"",
