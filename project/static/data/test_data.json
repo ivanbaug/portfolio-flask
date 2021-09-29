@@ -2,38 +2,38 @@
   "projects":[
     {
       "title":"Bluetooth Robot",
-      "description":"",
-      "img_url":"",
+      "description":"Bluetooth controlled robot with a working prototype. Wrote the code for both the microcontroller and the android app.",
+      "img_url":"https://ivanotes.s3.amazonaws.com/img/0028-btrobot.png",
       "prj_url":"",
       "stack":""
     },
     {
       "title":"Control Calculator",
-      "description":"",
-      "img_url":"",
+      "description":"Webapp i made to easily select some devices for a prevoius job given required i/o's",
+      "img_url":"https://ivanotes.s3.amazonaws.com/img/0029-dcctrl.png",
       "prj_url":"",
       "stack":""
     },
     {
       "title":"Python blog",
-      "description":"",
-      "img_url":"",
+      "description":"Blog made while learning python, including dbs, user auth, templating. Hosted on heroku.",
+      "img_url":"https://ivanotes.s3.amazonaws.com/img/0030-blogpy.png",
       "prj_url":"",
       "stack":""
     },
     {
       "title":"Telegram bot",
-      "description":"",
-      "img_url":"",
+      "description":"Telegram bot that tells the weather or scraps some web to notify me on updates about some webnovel updates, currently hosted on my raspberry pi.",
+      "img_url":"https://www.tuexpertoapps.com/wp-content/uploads/2021/05/los-mejores-bots-para-telegram-1-768x512.jpg",
       "prj_url":"",
       "stack":""
     },
     {
       "title":"Morse translator",
-      "description":"",
-      "img_url":"",
-      "prj_url":"",
-      "stack":""
+      "description":"Quick test of replit services",
+      "img_url":"https://ivanotes.s3.amazonaws.com/img/0031-replit.png",
+      "prj_url":"https://replit.com/@IvanBautista4/MorseTransl",
+      "stack":"python"
     }
   ],
   "experience":[
