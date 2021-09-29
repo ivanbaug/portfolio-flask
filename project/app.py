@@ -20,4 +20,4 @@ def main():
 
 if __name__ == "__main__":
     # port 8080 for google cloud run
-    app.run(host="0.0.0.0", port=8080)
+    app.run(host="0.0.0.0", port=8080, debug=True)
