@@ -25,18 +25,20 @@
 {%- endmacro %}
 {% macro my_projects(prj,i) -%}
 <div class="carousel-item {{'active' if i == 0}}">
-  <div class="col-md-4 px-1 d-flex align-items-stretch">
-    <div class="card shadow-sm">
-      <img src="{{prj.img_url}}" width="100%" height="225" alt="{{prj.title.lower()}}">
-      <div class="card-body d-flex flex-column">
-        <p class="card-text"><b>{{prj.title}}</b></p>
-        <p class="card-text text-start mb-auto">{{prj.description}}</p>
-        <div class="d-flex justify-content-between align-content-center mt-3">
-          <div class="btn-group">
-            <a type="button" href="{{prj.prj_url}}" class="btn btn-sm btn-outline-secondary">View</a>
-            {# <a type="button" class="btn btn-sm btn-outline-secondary">Edit</a> #}
+  <div class="col-md-4 px-1 ">
+    <div class="d-flex align-items-stretch">
+      <div class="card shadow-sm">
+        <img src="{{prj.img_url}}" width="100%" height="225" alt="{{prj.title.lower()}}">
+        <div class="card-body d-flex flex-column">
+          <p class="card-text"><b>{{prj.title}}</b></p>
+          <p class="card-text text-start mb-auto">{{prj.description}}</p>
+          <div class="d-flex justify-content-between align-content-center mt-3">
+            <div class="btn-group">
+              <a type="button" href="{{prj.prj_url}}" class="btn btn-sm btn-outline-secondary">View</a>
+              {# <a type="button" class="btn btn-sm btn-outline-secondary">Edit</a> #}
+            </div>
+            <small class="text-muted">{{prj.stack}}</small>
           </div>
-          <small class="text-muted">{{prj.stack}}</small>
         </div>
       </div>
     </div>
