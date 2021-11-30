@@ -1,6 +1,10 @@
-# portfolio-flask
-Same portfolio web but with flask and templating.
+# my-web-portfolio
+- A web portfolio with flask and templating. 
 
-working demo: https://iv-flask-web-i7ltas3gbq-ue.a.run.app/
+- The ui was made with https://julialang.org/ as reference because it just looks clean and pretty sober.
 
-I loved the way https://julialang.org/ looked as a site so I took it as reference, it just looked clean, no mess.
+- Working demo: https://iv-flask-web-i7ltas3gbq-ue.a.run.app/
+
+- Deployed on GCP's Cloud Run.
+
+

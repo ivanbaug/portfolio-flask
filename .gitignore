@@ -224,7 +224,8 @@ pip-selfcheck.json
 
 # End of https://www.toptal.com/developers/gitignore/api/venv,python,flask
 
-anti-requirements.txt
+ignore-requirements.txt
 
 *.env
 *.vscode
+*test_cv.json
