@@ -66,6 +66,11 @@
   ],
   "courses":[
     {
+      "title":"Modern Application Development with Python on AWS Specialization ",
+      "year":"2021",
+      "at":"Coursera"
+    },
+    {
       "title":"Programa de seguro de Ahorros de la energia - ESI",
       "year":"2020",
       "at":"BID - Bancoldex"
