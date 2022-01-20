@@ -9,9 +9,16 @@
     },
     {
       "title":"Control Calculator",
-      "description":"Webapp i made to easily select some devices for a prevoius job given required i/o's",
-      "img_url":"https://ivanotes.s3.amazonaws.com/img/0029-dcctrl.png",
+      "description":"Webapp i made to easily select devices for a prevoius job given required i/o's",
+      "img_url":"https://ivanotes.s3.amazonaws.com/img/0045-dcapp2.png",
       "prj_url":"https://github.com/ivanbaug/dc-ctrls",
+      "stack":"python, html, css, js"
+    },
+    {
+      "title":"e-commerce site",
+      "description":"Complete ecommerce app using Django and React, hosted on Google Cloud",
+      "img_url":"https://ivanotes.s3.amazonaws.com/img/0046-ecommerce1.png",
+      "prj_url":"https://github.com/ivanbaug/ecommerce-rd-backend",
       "stack":"python, html, css, js"
     },
     {
