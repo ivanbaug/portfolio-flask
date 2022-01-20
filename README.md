@@ -1,7 +1,7 @@
 # my-web-portfolio
-- A web portfolio with flask and templating. 
+- A web portfolio with flask and jinja templating. 
 
-- The ui was made with https://julialang.org/ as reference because it just looks clean and pretty sober.
+- The UI imitates the Julia Programming Languaje webpage https://julialang.org/ , took it as reference because it just looks clean and pretty sober.
 
 - Working demo: https://iv-flask-web-i7ltas3gbq-ue.a.run.app/
 
