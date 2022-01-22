@@ -229,3 +229,4 @@ ignore-requirements.txt
 *.env
 *.vscode
 *test_cv.json
+img-templates/*

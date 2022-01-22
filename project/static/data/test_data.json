@@ -8,8 +8,8 @@
       "stack":"java, c++"
     },
     {
-      "title":"Control Calculator",
-      "description":"Webapp i made to easily select devices for a prevoius job given required i/o's",
+      "title":"Controller Selector",
+      "description":"Webapp I made to easily select combinations of devices for a prevoius job given required i/o's",
       "img_url":"https://ivanotes.s3.amazonaws.com/img/0045-dcapp2.png",
       "prj_url":"https://github.com/ivanbaug/dc-ctrls",
       "stack":"python, html, css, js"
@@ -30,14 +30,14 @@
     },
     {
       "title":"Telegram bot",
-      "description":"Telegram bot that tells the weather or scraps some web to notify me on updates about some webnovel updates.",
+      "description":"Telegram bot that tells the weather or scraps some web to notify me on updates about some webnovel.",
       "img_url":"https://www.tuexpertoapps.com/wp-content/uploads/2021/05/los-mejores-bots-para-telegram-1-768x512.jpg",
       "prj_url":"https://github.com/ivanbaug/informative_telegram",
       "stack":"python"
     },
     {
       "title":"Morse translator",
-      "description":"Quick test of replit services",
+      "description":"Morse translator made as a quick test of replit services",
       "img_url":"https://ivanotes.s3.amazonaws.com/img/0031-replit.png",
       "prj_url":"https://replit.com/@IvanBautista4/MorseTransl",
       "stack":"python"

@@ -172,3 +172,10 @@ span.carousel-control-prev-icon {
 .icon-link {
   vertical-align: text-top;
 }
+
+.prj-container{
+  grid-template-columns: repeat(3,1fr);
+}
+.test-card {
+  background-color: #444;
+}
