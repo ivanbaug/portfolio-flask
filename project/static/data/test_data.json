@@ -3,7 +3,7 @@
     {
       "title":"Bluetooth Robot",
       "description":"Bluetooth controlled robot with a working prototype. Wrote the code for both the microcontroller and the android app.",
-      "img_url":"https://ivanotes.s3.amazonaws.com/img/0028-btrobot.png",
+      "img_url":"https://ivanotes.s3.amazonaws.com/img/0047-pf-btrobot.png",
       "prj_url":"https://github.com/ivanbaug/bt-rbot",
       "stack":"java, c++"
     },

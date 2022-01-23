@@ -77,7 +77,7 @@
 
   </div>
   <!-- Projects section begins here -->
-  <!-- <div class="container-fluid pt-5 pb-5 alt-color" id="projects">
+  <div class="container-fluid pt-5 pb-5 alt-color" id="projects">
     <div class="container">
       <div class="row pb-5">
         <div class="col-lg-4 col-md-3 subtitle2">
@@ -92,23 +92,21 @@
         <div class="container text-center my-3">
 
           <div class="row mx-auto my-auto justify-content-center position-relative
-          row-cols-xs-1 row-cols-sm-2 row-cols-md-3">
-            <div class="col test-card" style="border: solid 1px red;">gf</div>
-            <div class="col test-card" style="border: solid 1px red;">fgf</div>
-            <div class="col test-card" style="border: solid 1px red;">gf</div>
-            <div class="col test-card" style="border: solid 1px red;">fgf</div>
-            <div class="col test-card" style="border: solid 1px red;">gf</div>
-            <div class="col test-card" style="border: solid 1px red;">fgf</div>
-            <div class="col test-card" style="border: solid 1px red;">gf</div>
-            <div class="col test-card" style="border: solid 1px red;">fgf</div>
+          row-cols-1 row-cols-sm-2 row-cols-md-3 prj-container">
+            {% from 'macros.html' import my_test as my_test %}
+            {% for i in range(data.projects|length) %}
+            {{my_test(data.projects[i])}}
+          {% endfor %}
+
+
 
           </div>
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
 
-  <div class="container-fluid pt-5 pb-5 alt-color" id="projects">
+  <div class="container-fluid pt-5 pb-5 alt-color" id="projectss">
     <div class="container">
       <div class="row pb-5">
         <div class="col-lg-4 col-md-3 subtitle2">
