@@ -1,109 +1,125 @@
 {
-  "projects":[
-    {
-      "title":"Bluetooth Robot",
-      "description":"Bluetooth controlled robot with a working prototype. Wrote the code for both the microcontroller and the android app.",
-      "img_url":"https://ivanotes.s3.amazonaws.com/img/0047-pf-btrobot.png",
-      "prj_url":"https://github.com/ivanbaug/bt-rbot",
-      "stack":"java, c++"
+  "projects": [{
+      "title": "Bluetooth Robot",
+      "description": "Bluetooth controlled robot with a working prototype. Wrote the code for both the microcontroller and the android app.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0047-pf-btrobot.png",
+      "prj_url": "https://github.com/ivanbaug/bt-rbot",
+      "stack": "java, c++"
     },
     {
-      "title":"Controller Selector",
-      "description":"Webapp I made to easily select combinations of devices for a prevoius job given required i/o's",
-      "img_url":"https://ivanotes.s3.amazonaws.com/img/0045-dcapp2.png",
-      "prj_url":"https://github.com/ivanbaug/dc-ctrls",
-      "stack":"python, html, css, js"
+      "title": "Controller Selector",
+      "description": "Webapp I made to easily select combinations of devices for a prevoius job given required i/o's",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0048-dcapp3.png",
+      "prj_url": "https://github.com/ivanbaug/dc-ctrls",
+      "stack": "python, html, css, js"
     },
     {
-      "title":"e-commerce site",
-      "description":"Complete ecommerce app using Django and React, hosted on Google Cloud",
-      "img_url":"https://ivanotes.s3.amazonaws.com/img/0046-ecommerce1.png",
-      "prj_url":"https://github.com/ivanbaug/ecommerce-rd-backend",
-      "stack":"python, html, css, js"
+      "title": "e-commerce site",
+      "description": "Complete ecommerce app using Django and React, frontend in an AWS bucket, back in GCP",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0049-shop1.png",
+      "prj_url": "https://github.com/ivanbaug/ecommerce-rd-backend",
+      "stack": "python, html, css, js"
     },
     {
-      "title":"Python blog",
-      "description":"Blog made while learning python, including dbs, user auth, templating. Hosted on heroku.",
-      "img_url":"https://ivanotes.s3.amazonaws.com/img/0030-blogpy.png",
-      "prj_url":"https://github.com/ivanbaug/blog-users",
-      "stack":"python, html, css, js"
+      "title": "Python blog",
+      "description": "Blog made while learning python, including dbs, user auth, templating. Hosted on heroku.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0030-blogpy.png",
+      "prj_url": "https://github.com/ivanbaug/blog-users",
+      "stack": "python, html, css, js"
     },
     {
-      "title":"Telegram bot",
-      "description":"Telegram bot that tells the weather or scraps some web to notify me on updates about some webnovel.",
-      "img_url":"https://www.tuexpertoapps.com/wp-content/uploads/2021/05/los-mejores-bots-para-telegram-1-768x512.jpg",
-      "prj_url":"https://github.com/ivanbaug/informative_telegram",
-      "stack":"python"
+      "title": "Telegram bot",
+      "description": "Telegram bot that tells the weather or scraps some web to notify me on updates about a webnovel I like.",
+      "img_url": "https://www.tuexpertoapps.com/wp-content/uploads/2021/05/los-mejores-bots-para-telegram-1-768x512.jpg",
+      "prj_url": "https://github.com/ivanbaug/informative_telegram",
+      "stack": "python"
     },
     {
-      "title":"Morse translator",
-      "description":"Morse translator made as a quick test of replit services",
-      "img_url":"https://ivanotes.s3.amazonaws.com/img/0031-replit.png",
-      "prj_url":"https://replit.com/@IvanBautista4/MorseTransl",
-      "stack":"python"
+      "title": "Morse translator",
+      "description": "Morse translator made as a quick test of replit services",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0031-replit.png",
+      "prj_url": "https://replit.com/@IvanBautista4/MorseTransl",
+      "stack": "python"
+    },
+    {
+      "title": "Controller Selector",
+      "description": "Webapp I made to easily select combinations of devices for a prevoius job given required i/o's",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0048-dcapp3.png",
+      "prj_url": "https://github.com/ivanbaug/dc-ctrls",
+      "stack": "python, html, css, js"
+    },
+    {
+      "title": "e-commerce site",
+      "description": "Complete ecommerce app using Django and React, frontend in an AWS bucket, back in GCP",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0049-shop1.png",
+      "prj_url": "https://github.com/ivanbaug/ecommerce-rd-backend",
+      "stack": "python, html, css, js"
+    },
+    {
+      "title": "Python blog",
+      "description": "Blog made while learning python, including dbs, user auth, templating. Hosted on heroku.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0030-blogpy.png",
+      "prj_url": "https://github.com/ivanbaug/blog-users",
+      "stack": "python, html, css, js"
     }
   ],
-  "experience":[
-    {
-      "title":"Automation engineer",
-      "company":"Davinci Control S.A.S. (Bogotá Colombia)",
-      "year":"2018-2021",
-      "description":"Estimating automation solutions for air conditioning systems, implementation of said systems leading a team that installs, commission and start-up the control and monitoring equipment. Programming the field controllers and developing user interfaces according to client requirements. Retrofit of out-of-date equipment leading to savings between 5 and 30% in energy consumption."
+  "experience": [{
+      "title": "Automation engineer",
+      "company": "Davinci Control S.A.S. (Bogotá Colombia)",
+      "year": "2018-2021",
+      "description": "Estimating automation solutions for air conditioning systems, implementation of said systems leading a team that installs, commission and start-up the control and monitoring equipment. Programming the field controllers and developing user interfaces according to client requirements. Retrofit of out-of-date equipment leading to savings between 5 and 30% in energy consumption."
     },
     {
-      "title":"Design and projects engineer",
-      "company":"HVAC-Consulting S.A.S. (Bogotá Colombia)",
-      "year":"2014-2018",
-      "description":"Cooling/heating load calculations, air conditioning system selection/optimization for contracted buildings, plan drafting and documentation for the HVAC system of said buildings under ASHRAE Standards. Over 20 residential, commercial and industrial projects designed with highly energy efficient solutions."
+      "title": "Design and projects engineer",
+      "company": "HVAC-Consulting S.A.S. (Bogotá Colombia)",
+      "year": "2014-2018",
+      "description": "Cooling/heating load calculations, air conditioning system selection/optimization for contracted buildings, plan drafting and documentation for the HVAC system of said buildings under ASHRAE Standards. Over 20 residential, commercial and industrial projects designed with highly energy efficient solutions."
     }
   ],
-  "education":[
-    {
-      "title":"Mechatronics Engineering (BS)",
-      "year":"2010-2015",
-      "at":"Universidad Militar Nueva Granada"
-    }
-  ],
-  "courses":[
-    {
-      "title":"Modern Application Development with Python on AWS Specialization ",
-      "year":"2021",
-      "at":"Coursera"
+  "education": [{
+    "title": "Mechatronics Engineering (BS)",
+    "year": "2010-2015",
+    "at": "Universidad Militar Nueva Granada"
+  }],
+  "courses": [{
+      "title": "Modern Application Development with Python on AWS Specialization ",
+      "year": "2021",
+      "at": "Coursera"
     },
     {
-      "title":"Programa de seguro de Ahorros de la energia - ESI",
-      "year":"2020",
-      "at":"BID - Bancoldex"
+      "title": "Programa de seguro de Ahorros de la energia - ESI",
+      "year": "2020",
+      "at": "BID - Bancoldex"
     },
     {
-      "title":"FX Supervisory Controllers, FX Server and FX Workbench Advanced",
-      "year":"2020",
-      "at":"Johnson Controls"
+      "title": "FX Supervisory Controllers, FX Server and FX Workbench Advanced",
+      "year": "2020",
+      "at": "Johnson Controls"
     },
     {
-      "title":"Advanced FX Field controllers and CPO10",
-      "year":"2020",
-      "at":"Johnson Controls"
+      "title": "Advanced FX Field controllers and CPO10",
+      "year": "2020",
+      "at": "Johnson Controls"
     },
     {
-      "title":"FX Workshop",
-      "year":"2018",
-      "at":"Johnson Controls"
+      "title": "FX Workshop",
+      "year": "2018",
+      "at": "Johnson Controls"
     },
     {
-      "title":"PCT software and PCG Family MSTP Field controllers",
-      "year":"2018",
-      "at":"Johnson Controls"
+      "title": "PCT software and PCG Family MSTP Field controllers",
+      "year": "2018",
+      "at": "Johnson Controls"
     },
     {
-      "title":"Machine Learning",
-      "year":"2014",
-      "at":"Coursera"
+      "title": "Machine Learning",
+      "year": "2014",
+      "at": "Coursera"
     },
     {
-      "title":"6.00x: Introduction to Computer Science and Programming",
-      "year":"2013",
-      "at":"edX"
+      "title": "6.00x: Introduction to Computer Science and Programming",
+      "year": "2013",
+      "at": "edX"
     }
   ]
 }

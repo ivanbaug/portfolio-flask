@@ -90,68 +90,30 @@
       </div>
       <div class="row">
         <div class="container text-center my-3">
-
           <div class="row mx-auto my-auto justify-content-center position-relative
           row-cols-1 row-cols-sm-2 row-cols-md-3 prj-container">
             {% from 'macros.html' import my_test as my_test %}
             {% for i in range(data.projects|length) %}
             {{my_test(data.projects[i])}}
-          {% endfor %}
-
-
-
+            {% endfor %}
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container-fluid pt-5 pb-5 alt-color" id="projectss">
-    <div class="container">
-      <div class="row pb-5">
-        <div class="col-lg-4 col-md-3 subtitle2">
-          <hr>
-        </div>
-        <div class="col-lg-4 col-md-6 subtitle2">My projects</div>
-        <div class="col-lg-4 col-md-3 subtitle2">
-          <hr>
         </div>
       </div>
       <div class="row">
-        <div class="container text-center my-3">
-          <div class="row mx-auto my-auto justify-content-center position-relative">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                  aria-current="true" aria-label="Slide 1"></button>
-                  {% for i in range(1,data.projects|length)%}
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{i}}"
-                    aria-label="Slide {{i+1}}"></button>
-                  {% endfor %}
-              </div>
-              <div class="carousel-inner">
-              {% from 'macros.html' import my_projects as my_projects %}
-              {% for i in range(data.projects|length) %}
-                {{my_projects(data.projects[i],i)}}
-              {% endfor %}
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
+        <nav id="projects-pagination" aria-label="projects-pages">
+          <ul class="pagination justify-content-center" id="list-pagination">
+            <li class="page-item disabled" id="first-pg-item">
+              <button class="page-link" data-option="-1">Previous</button>
+            </li>
+            <li class="page-item" id="last-pg-item">
+              <button class="page-link" data-option="-1">Next</button>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
   </div>
-  
+
   <!-- Projects section ends here -->
   <!-- Experience section starts here -->
   <div class="container-fluid pt-5 pb-5" id="experience">
@@ -167,12 +129,12 @@
       </div>
       <div class="row">
         <div class="timeline mx-auto">
-        {% if data.experience %}
+          {% if data.experience %}
           {% from 'macros.html' import my_experience as my_experience %}
           {% for exp in data.experience %}
-            {{my_experience(exp)}}
+          {{my_experience(exp)}}
           {% endfor %}
-        {% endif %}
+          {% endif %}
         </div>
       </div>
     </div>
@@ -193,23 +155,23 @@
       </div>
       <div class="row d-flex align-items-center">
         <div class="timeline mx-auto">
-        {% if data.education %}
+          {% if data.education %}
           {% from 'macros.html' import my_education as my_education %}
           {% for edu in data.education %}
-            {{my_education(edu)}}
+          {{my_education(edu)}}
           {% endfor %}
-        {% endif %}
+          {% endif %}
         </div>
         <div class="text-center pb-3">
           <h5>Courses and certifications</h5>
         </div>
         <div class="timeline mx-auto">
-        {% if data.courses %}
+          {% if data.courses %}
           {% from 'macros.html' import my_education as my_education %}
           {% for course in data.courses %}
-            {{my_education(course)}}
+          {{my_education(course)}}
           {% endfor %}
-        {% endif %}
+          {% endif %}
         </div>
       </div>
     </div>
@@ -233,8 +195,7 @@
           <div class="social my-5">
             <div class="row">
               <div class="col text-center">
-                <a href="https://www.linkedin.com/in/ivanbgp" role="button"
-                  class="btn btn-outline-secondary">
+                <a href="https://www.linkedin.com/in/ivanbgp" role="button" class="btn btn-outline-secondary">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                     class="bi bi-linkedin icon-link" viewBox="0 0 16 16">
                     <path
@@ -292,9 +253,8 @@
     document.getElementById("cdate").innerHTML = new Date().getFullYear();
   </script>
   <script src="{{url_for('static', filename='js/navbar-hide.js')}}"></script>
+  <script src="{{url_for('static', filename='js/display-prjs.js')}}"></script>
   <script src="{{url_for('static', filename='js/multiple-items.js')}}"></script>
 </body>
-
-
 
 </html>

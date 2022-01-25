@@ -46,11 +46,11 @@
 </div>
 {%- endmacro %}
 {% macro my_test(prj) -%}
-<div class="col p-1" >
+<div class="col p-1 prj-card-wrapper" >
   <article class="prj-card d-flex flex-column">
     <img src="{{prj.img_url}}" alt="{{prj.title}}" >
     <div class="prj-card-title mt-1">{{prj.title}}</div>
-    <div class="prj-card-description ">{{prj.description}}</div>
+    <div class="prj-card-description">{{prj.description}}</div>
     <div class="flex-grow-1"></div>
     <div class="prj-button-container mt-2">
       <a type="button" href="{{prj.prj_url}}" class="btn btn-sm btn-outline-secondary py-0">Code</a>
