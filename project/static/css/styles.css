@@ -173,6 +173,8 @@ span.carousel-control-prev-icon {
   vertical-align: text-top;
 }
 
+
+/* **** Projects section **** */
 .prj-container {
   /* grid-template-columns: repeat(3,1fr); */
   grid-auto-rows: 1fr;
@@ -219,6 +221,8 @@ span.carousel-control-prev-icon {
   border: 1px solid rgba(0, 0, 0, 0.25);
 }
 
+
+
 .page-item .page-link {
   color: #912614 !important;
   background: #fff !important;
@@ -229,3 +233,21 @@ span.carousel-control-prev-icon {
   background: #912614 !important;
   border: none;
 }
+
+.page-link:focus {
+  box-shadow: 0 0 0 0.25rem #91271436 !important;
+}
+
+.page-item.disabled .page-link {
+  color: #6c757d !important;
+}
+
+/* 
+.prj-card-wrapper {
+  transform: translateX(0);
+  transition: transform ease-in 0.3s;
+}
+
+.prj-card-wrapper.not-visible {
+  transform: translateX(100%);
+} */

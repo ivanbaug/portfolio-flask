@@ -36,6 +36,10 @@ const pageChangeHandler = (data, pageNum) => {
   const currentPg = ulPagination.getElementsByClassName('page-item')[page]
   currentPg.classList.add('active')
 
+  // jump to top of projects if its mobile
+  if (window.matchMedia("only screen and (max-width: 760px)").matches) {
+    window.location = "#projects"
+  }
 
 }
 
@@ -45,12 +49,18 @@ const displayPrjPage = (page) => {
   let pgEnd = page * cardNumber
   pgEnd = (pgEnd > (projects.length)) ? projects.length : pgEnd
 
-  console.log(`start:${pgStart}  end:${pgEnd}`)
+  // console.log(`start:${pgStart}  end:${pgEnd}`)
   Array.from(projects).forEach(prj => {
     prj.style.display = 'none'
+    // prj.style.visibility = 'hidden'
+    // prj.style.opacity = '0'
+    // prj.classList.add('not-visible')
   })
   Array.from(projects).slice(pgStart, pgEnd).forEach(prj => {
     prj.style.display = 'block'
+    // prj.style.visibility = 'visible'
+    // prj.style.opacity = '1'
+    // prj.classList.remove('not-visible')
   })
 }
 
