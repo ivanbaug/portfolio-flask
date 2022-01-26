@@ -12,7 +12,7 @@ const pageChangeHandler = (data, pageNum) => {
 
   firstItem.querySelector('.page-link').setAttribute('data-option', `${Number(page) - 1}`)
   lastItem.querySelector('.page-link').setAttribute('data-option', `${Number(page) + 1}`)
-  // Enabe/Disable previous and next buttons when they dont apply anymore
+  // Enable/Disable previous and next buttons when they dont apply anymore
   if (page > 1) {
     firstItem.classList.remove('disabled')
   }
@@ -36,7 +36,7 @@ const pageChangeHandler = (data, pageNum) => {
   const currentPg = ulPagination.getElementsByClassName('page-item')[page]
   currentPg.classList.add('active')
 
-  // jump to top of projects if its mobile
+  // jump to top of projects if its on mobile
   if (window.matchMedia("only screen and (max-width: 760px)").matches) {
     window.location = "#projects"
   }
@@ -51,16 +51,18 @@ const displayPrjPage = (page) => {
 
   // console.log(`start:${pgStart}  end:${pgEnd}`)
   Array.from(projects).forEach(prj => {
-    prj.style.display = 'none'
+    // prj.style.display = 'none'
+
     // prj.style.visibility = 'hidden'
     // prj.style.opacity = '0'
-    // prj.classList.add('not-visible')
+    prj.classList.add('hide')
   })
   Array.from(projects).slice(pgStart, pgEnd).forEach(prj => {
-    prj.style.display = 'block'
+    // prj.style.display = 'block'
+
     // prj.style.visibility = 'visible'
     // prj.style.opacity = '1'
-    // prj.classList.remove('not-visible')
+    prj.classList.remove('hide')
   })
 }
 

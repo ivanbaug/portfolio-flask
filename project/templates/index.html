@@ -92,9 +92,9 @@
         <div class="container text-center my-3">
           <div class="row mx-auto my-auto justify-content-center position-relative
           row-cols-1 row-cols-sm-2 row-cols-md-3 prj-container">
-            {% from 'macros.html' import my_test as my_test %}
+            {% from 'macros.html' import my_projects as my_projects %}
             {% for i in range(data.projects|length) %}
-            {{my_test(data.projects[i])}}
+            {{my_projects(data.projects[i])}}
             {% endfor %}
           </div>
         </div>
@@ -108,14 +108,13 @@
             <li class="page-item" id="last-pg-item">
               <button class="page-link" data-option="2">Next</button>
             </li>
-
           </ul>
         </nav>
       </div>
     </div>
   </div>
-
   <!-- Projects section ends here -->
+
   <!-- Experience section starts here -->
   <div class="container-fluid pt-5 pb-5" id="experience">
     <div class="container">

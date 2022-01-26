@@ -8,7 +8,7 @@
     },
     {
       "title": "Controller Selector",
-      "description": "Webapp I made to easily select combinations of devices for a prevoius job given required i/o's",
+      "description": "Webapp I made to easily select combinations of devices for a previous job given required i/o's",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0048-dcapp3.png",
       "prj_url": "https://github.com/ivanbaug/dc-ctrls",
       "stack": "python, html, css, js"
@@ -22,7 +22,7 @@
     },
     {
       "title": "Python blog",
-      "description": "Blog made while learning python, including dbs, user auth, templating. Hosted on heroku.",
+      "description": "Blog made while learning python, including DBs, user auth, templating. Hosted on heroku.",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0030-blogpy.png",
       "prj_url": "https://github.com/ivanbaug/blog-users",
       "stack": "python, html, css, js"
