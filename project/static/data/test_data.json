@@ -4,63 +4,72 @@
       "description": "Bluetooth controlled robot with a working prototype. Wrote the code for both the microcontroller and the android app.",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0047-pf-btrobot.png",
       "prj_url": "https://github.com/ivanbaug/bt-rbot",
-      "stack": "java, c++"
+      "demo_url": "",
+      "stack": ["Java", "C++", "Android"]
     },
     {
       "title": "Controller Selector",
       "description": "Webapp I made to easily select combinations of devices for a previous job given required i/o's",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0048-dcapp3.png",
       "prj_url": "https://github.com/ivanbaug/dc-ctrls",
-      "stack": "python, html, css, js"
+      "demo_url": "https://dc-ctrls-jdm27gv2nq-ue.a.run.app/",
+      "stack": ["Python", "html", "css", "JavaScript", "Flask"]
     },
     {
       "title": "e-commerce site",
-      "description": "Complete ecommerce app using Django and React, frontend in an AWS bucket, back in GCP",
+      "description": "Complete ecommerce app using Django and React, frontend in an AWS bucket, back in GCP. AWS hosted Postgres DB.",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0049-shop1.png",
       "prj_url": "https://github.com/ivanbaug/ecommerce-rd-backend",
-      "stack": "python, html, css, js"
+      "demo_url": "http://iv-shop.s3-website-us-east-1.amazonaws.com/",
+      "stack": ["Python", "html", "css", "JavaScript", "Django", "React"]
     },
     {
       "title": "Python blog",
       "description": "Blog made while learning python, including DBs, user auth, templating. Hosted on heroku.",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0030-blogpy.png",
       "prj_url": "https://github.com/ivanbaug/blog-users",
-      "stack": "python, html, css, js"
+      "demo_url": "https://py-iv-blog.herokuapp.com/",
+      "stack": ["Python", "html", "css", "JavaScript", "Flask"]
     },
     {
       "title": "Telegram bot",
-      "description": "Telegram bot that tells the weather or scraps some web to notify me on updates about a webnovel I like.",
+      "description": "Telegram bot that tells the weather or scraps some web to notify me on updates about a webnovel I like. Online trough a Docker container in a Raspberry Pi",
       "img_url": "https://www.tuexpertoapps.com/wp-content/uploads/2021/05/los-mejores-bots-para-telegram-1-768x512.jpg",
       "prj_url": "https://github.com/ivanbaug/informative_telegram",
-      "stack": "python"
+      "demo_url": "",
+      "stack": ["Python", "Telegram API"]
     },
     {
       "title": "Morse translator",
       "description": "Morse translator made as a quick test of replit services",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0031-replit.png",
       "prj_url": "https://replit.com/@IvanBautista4/MorseTransl",
-      "stack": "python"
+      "demo_url": "https://replit.com/@IvanBautista4/MorseTransl",
+      "stack": ["Python"]
     },
     {
       "title": "Controller Selector",
-      "description": "Webapp I made to easily select combinations of devices for a prevoius job given required i/o's",
+      "description": "Webapp I made to easily select combinations of devices for a previous job given required i/o's",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0048-dcapp3.png",
       "prj_url": "https://github.com/ivanbaug/dc-ctrls",
-      "stack": "python, html, css, js"
+      "demo_url": "",
+      "stack": ["Python", "html", "css", "JavaScript", "Flask"]
     },
     {
       "title": "e-commerce site",
-      "description": "Complete ecommerce app using Django and React, frontend in an AWS bucket, back in GCP",
+      "description": "Complete ecommerce app using Django and React, frontend in an AWS bucket, back in GCP. AWS hosted Postgres DB.",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0049-shop1.png",
       "prj_url": "https://github.com/ivanbaug/ecommerce-rd-backend",
-      "stack": "python, html, css, js"
+      "demo_url": "",
+      "stack": ["Python", "html", "css", "JavaScript", "Django", "React"]
     },
     {
       "title": "Python blog",
-      "description": "Blog made while learning python, including dbs, user auth, templating. Hosted on heroku.",
+      "description": "Blog made while learning python, including DBs, user auth, templating. Hosted on heroku.",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0030-blogpy.png",
       "prj_url": "https://github.com/ivanbaug/blog-users",
-      "stack": "python, html, css, js"
+      "demo_url": "",
+      "stack": ["Python", "html", "css", "JavaScript", "Flask"]
     }
   ],
   "experience": [{

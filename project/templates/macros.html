@@ -26,15 +26,26 @@
 {%- endmacro %}
 
 {% macro my_projects(prj) -%}
-<div class="col p-1 prj-card-wrapper" >
+<div class="col p-1 prj-card-wrapper">
   <article class="prj-card d-flex flex-column">
-    <img src="{{prj.img_url}}" alt="{{prj.title}}" >
+    <img src="{{prj.img_url}}" alt="{{prj.title}}">
     <div class="prj-card-title mt-1">{{prj.title}}</div>
     <div class="prj-card-description">{{prj.description}}</div>
     <div class="flex-grow-1"></div>
+    <div class="mt-2">
+      {%for tag in prj.stack %}
+      <span class="prj-tags">{{tag}}</span>
+      {%endfor%}
+    </div>
+
     <div class="prj-button-container mt-2">
       <a type="button" href="{{prj.prj_url}}" class="btn btn-sm btn-outline-secondary py-0">Code</a>
-      <a type="button" href="{{prj.prj_url}}" class="btn btn-sm btn-outline-secondary py-0">Demo</a>
+      {% if prj.demo_url %}
+      <a type="button" href="{{prj.demo_url}}" class="btn btn-sm btn-outline-secondary py-0">Demo</a>
+      {% else %}
+      <span class="demo-msg" >Not online</span>
+      {% endif %}
+      
     </div>
   </article>
 </div>
