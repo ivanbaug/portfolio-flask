@@ -40,6 +40,22 @@
       "stack": ["Python", "Telegram API"]
     },
     {
+      "title": "Ice Cream Plant Simulator",
+      "description": "A 3D simulator that interfaces with a microcontroller to test Siemens PLC programs where the user can evaluate multiple scenarios of the ice cream production process.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0051-icecreamprod.png",
+      "prj_url": "https://github.com/ivanbaug/unity-icecream",
+      "demo_url": "",
+      "stack": ["C#", "C++", ".Net", "Unity", "Blender"]
+    },
+    {
+      "title": "Coffee and WiFi",
+      "description": "Site for sharing and rating coffee shops, specially the ones used for remote-work. You can rate seats, sockets, wifi, others.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0052-coffeewifibeta.png",
+      "prj_url": "https://github.com/ivanbaug/coffee-wifi-site",
+      "demo_url": "",
+      "stack": ["Python", "html", "css", "Flask"]
+    },
+    {
       "title": "Morse translator",
       "description": "Morse translator made as a quick test of replit services",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0031-replit.png",
