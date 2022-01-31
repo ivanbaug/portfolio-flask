@@ -56,6 +56,22 @@
       "stack": ["Python", "html", "css", "Flask"]
     },
     {
+      "title": "Dissapearing Text",
+      "description": "Notepad-like app that waits only a few seconds before erasing what you wrote. The idea is that you try to write constantly.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0053-dissapeartext.png",
+      "prj_url": "https://github.com/ivanbaug/dissapearing-text",
+      "demo_url": "",
+      "stack": ["Python", "Tkinter", "Desktop"]
+    },
+    {
+      "title": "Space invaders",
+      "description": "A space invaders game made with turtle.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0054-spaceinv.png",
+      "prj_url": "https://github.com/ivanbaug/space-invaders-py",
+      "demo_url": "",
+      "stack": ["Python", "turtle", "Desktop"]
+    },
+    {
       "title": "Morse translator",
       "description": "Morse translator made as a quick test of replit services",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0031-replit.png",
