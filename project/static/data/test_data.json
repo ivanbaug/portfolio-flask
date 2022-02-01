@@ -64,11 +64,27 @@
       "stack": ["Python", "Tkinter", "Desktop"]
     },
     {
+      "title": "Typing Speed Test",
+      "description": "Desktop app to measures the typing speed of the user. Follows visually the characters as the user types.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0056-typespeed.png",
+      "prj_url": "https://github.com/ivanbaug/py-typing-speed",
+      "demo_url": "",
+      "stack": ["Python", "Tkinter", "Desktop"]
+    },
+    {
       "title": "Space invaders",
       "description": "A space invaders game made with turtle.",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0054-spaceinv.png",
       "prj_url": "https://github.com/ivanbaug/space-invaders-py",
       "demo_url": "",
+      "stack": ["Python", "turtle", "Desktop"]
+    },
+    {
+      "title": "Breakout Game",
+      "description": "Breakout game using python turtle.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0055-breakout.png",
+      "prj_url": "https://github.com/ivanbaug/breakout-py",
+      "demo_url": "https://replit.com/@IvanBautista4/breakout-py#.replit",
       "stack": ["Python", "turtle", "Desktop"]
     },
     {
