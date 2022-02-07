@@ -24,12 +24,12 @@
       "stack": ["Python", "html", "css", "JavaScript", "Django", "React"]
     },
     {
-      "title": "Python blog",
-      "description": "Blog made while learning python, including DBs, user auth, templating. Hosted on heroku.",
-      "img_url": "https://ivanotes.s3.amazonaws.com/img/0050-blogpy2.png",
-      "prj_url": "https://github.com/ivanbaug/blog-users",
-      "demo_url": "https://py-iv-blog.herokuapp.com/",
-      "stack": ["Python", "html", "css", "JavaScript", "Flask"]
+      "title": "WebNovel Scrape",
+      "description": "Web Novel Scrape, is the result of the wish to keep reading a japanese webnovel that is not released in english yet, but it's available for free in japanese.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0058-wnscrape.png",
+      "prj_url": "https://github.com/ivanbaug/wn-scrape",
+      "demo_url": "",
+      "stack": ["Python", "bs4", "Translate API"]
     },
     {
       "title": "Telegram bot",
@@ -46,6 +46,14 @@
       "prj_url": "https://github.com/ivanbaug/unity-icecream",
       "demo_url": "",
       "stack": ["C#", "C++", ".Net", "Unity", "Blender"]
+    },
+    {
+      "title": "Python blog",
+      "description": "Blog made while learning python, including DBs, user auth, templating. Hosted on heroku.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0050-blogpy2.png",
+      "prj_url": "https://github.com/ivanbaug/blog-users",
+      "demo_url": "https://py-iv-blog.herokuapp.com/",
+      "stack": ["Python", "html", "css", "JavaScript", "Flask"]
     },
     {
       "title": "Coffee and WiFi",
@@ -70,6 +78,14 @@
       "prj_url": "https://github.com/ivanbaug/py-typing-speed",
       "demo_url": "",
       "stack": ["Python", "Tkinter", "Desktop"]
+    },
+    {
+      "title": "desktop-img-watermark",
+      "description": "Small desktop app to watermark images in python",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0057-watermark.png",
+      "prj_url": "https://github.com/ivanbaug/desktop-img-watermark",
+      "demo_url": "",
+      "stack": ["Python", "QtGui", "Desktop"]
     },
     {
       "title": "Space invaders",
