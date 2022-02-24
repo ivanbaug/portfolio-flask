@@ -16,6 +16,14 @@
       "stack": ["Python", "html", "css", "JavaScript", "Flask"]
     },
     {
+      "title": "Coffee and WiFi",
+      "description": "Site for sharing and rating coffee shops, specially the ones used for remote-work. You can rate seats, sockets, wifi, others.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/0059-cafe1.png",
+      "prj_url": "https://github.com/ivanbaug/cafe-wifi",
+      "demo_url": "https://cafe-wifi-yctxl3no4a-ue.a.run.app",
+      "stack": ["Python", "JavaScript", "Django", "React", "Redux", "Postgres"]
+    },
+    {
       "title": "e-commerce site",
       "description": "Complete ecommerce app using Django and React, frontend in an AWS bucket, back in GCP. AWS hosted Postgres DB.",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0049-shop1.png",
@@ -54,14 +62,6 @@
       "prj_url": "https://github.com/ivanbaug/blog-users",
       "demo_url": "https://py-iv-blog.herokuapp.com/",
       "stack": ["Python", "html", "css", "JavaScript", "Flask"]
-    },
-    {
-      "title": "Coffee and WiFi",
-      "description": "Site for sharing and rating coffee shops, specially the ones used for remote-work. You can rate seats, sockets, wifi, others.",
-      "img_url": "https://ivanotes.s3.amazonaws.com/img/0052-coffeewifibeta.png",
-      "prj_url": "https://github.com/ivanbaug/coffee-wifi-site",
-      "demo_url": "",
-      "stack": ["Python", "html", "css", "Flask"]
     },
     {
       "title": "Dissapearing Text",
