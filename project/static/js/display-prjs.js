@@ -4,7 +4,7 @@ const firstItem = document.getElementById('first-pg-item')
 const ulPagination = document.getElementById('list-pagination')
 
 // pagesElement.getElementsByClassName(
-const cardNumber = 3
+const cardNumber = 6
 
 const pageChangeHandler = (data, pageNum) => {
   const page = data.getAttribute("data-option")

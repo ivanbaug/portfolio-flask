@@ -18,7 +18,7 @@
     {
       "title": "Coffee and WiFi",
       "description": "Site for sharing and rating coffee shops, specially the ones used for remote-work. You can rate seats, sockets, wifi, others.",
-      "img_url": "https://ivanotes.s3.amazonaws.com/0059-cafe1.png",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0059-cafe1.png",
       "prj_url": "https://github.com/ivanbaug/cafe-wifi",
       "demo_url": "https://cafe-wifi-yctxl3no4a-ue.a.run.app",
       "stack": ["Python", "JavaScript", "Django", "React", "Redux", "Postgres"]
@@ -38,6 +38,14 @@
       "prj_url": "https://github.com/ivanbaug/wn-scrape",
       "demo_url": "",
       "stack": ["Python", "bs4", "Translate API"]
+    },
+    {
+      "title": "Starwars Test",
+      "description": "Frontend app that presents data from the StarWars API. Made with react, redux and axios as part of a selection process for a dev job. .",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/065-sw-text.png",
+      "prj_url": "https://github.com/ivanbaug/starwars-react",
+      "demo_url": "https://ivanbaug.github.io/starwars-react/",
+      "stack": ["JavaScript", "React", "Redux", "axios"]
     },
     {
       "title": "Telegram bot",
@@ -62,6 +70,14 @@
       "prj_url": "https://github.com/ivanbaug/blog-users",
       "demo_url": "https://py-iv-blog.herokuapp.com/",
       "stack": ["Python", "html", "css", "JavaScript", "Flask"]
+    },
+    {
+      "title": "Github Finder",
+      "description": "App that uses the Github API to search and visualize users on that platform. Made as part of a react course.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/066-github-finder.png",
+      "prj_url": "https://github.com/ivanbaug/github-finder",
+      "demo_url": "github-finder-ivanbaug.vercel.app",
+      "stack": ["React", "Context API", "tailwind", "JavaScript"]
     },
     {
       "title": "Dissapearing Text",
