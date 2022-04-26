@@ -75,7 +75,7 @@
       "title": "Github Finder",
       "description": "App that uses the Github API to search and visualize users on that platform. Made as part of a react course.",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/066-github-finder.png",
-      "prj_url": "https://github.com/ivanbaug/github-finder",
+      "prj_url": "https://github-finder-livid-seven.vercel.app/",
       "demo_url": "github-finder-ivanbaug.vercel.app",
       "stack": ["React", "Context API", "tailwind", "JavaScript"]
     },
