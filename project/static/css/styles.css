@@ -45,7 +45,6 @@ footer {
   /* Transition effect when sliding down (and up) */
   transition: top 0.3s;
   z-index: 1200;
-
 }
 
 /* Container max width */
